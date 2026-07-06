@@ -66,10 +66,6 @@ No installation or dependencies required.
 ---
 
 
-##Author
-Raghav Bansal
----
-
 
 ## 📄 Disclaimer
 
