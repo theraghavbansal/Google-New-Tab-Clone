@@ -1,0 +1,132 @@
+.header{
+    display: flex;
+    justify-content: flex-start;
+}
+.empty{
+    width: 85%;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    padding: 0 ,0.5rem ,0 ,0.6rem;
+    
+}
+.profile{
+    width: 3rem;
+    height: 3rem;
+}
+.gmail{
+    padding: 0,0,0,2rem;
+    margin-right: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.gmail , .images{
+    text-decoration: none;
+    color: #232323;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.gmail:hover, .images:hover{
+    text-decoration: underline;
+
+}
+
+.images{
+    padding: 0,0,0,2rem;
+    margin-right: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.chemical{
+   
+    margin-right: 1.5rem; 
+    opacity: 0.7;
+  
+  
+  
+    border-radius: 50%;
+}
+.chemical:hover{
+  opacity: 1;
+   
+}
+.bars{
+    padding: 0,0,0,2rem;
+    margin-right: 1.5rem;
+    opacity: 0.7;
+}
+.bars:hover{
+    opacity: 1;
+}
+.img img{
+    height: 5.75rem;
+    width: 17rem;
+    display: block;
+    align-items: center;
+    margin: auto;
+    margin-top: 4rem;
+   
+   
+}
+.container{
+    width: 46.62rem;
+    height: 3.5rem;
+   
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0 1px 6px rgba(32,33,36,0.15);
+    border: 1px solid #dfe1e5;
+    display: block;
+    align-items: center;
+   
+    margin: auto;
+    margin-top: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mic{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+.cam{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+#search{
+    width: 31.87rem;
+    height: 2rem;
+    padding: 1rem, 1rem, 0.75rem, 0;
+    border: none;
+    font-size: 1.25rem;
+    color: #202124;
+}
+#search::placeholder{
+    color: #5f6368;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.6;
+}
+.fa-plus{
+    opacity: 0.7;
+}
+.fa-plus:hover{
+    opacity: 1;
+}
+.cam{
+    opacity: 0.7;
+}
+.cam:hover{
+    opacity: 1;
+}
+.mic{
+    opacity: 0.7;
+}
+.mic:hover{
+    opacity: 1;
+}
+#search:focus{
+    outline: none;
+}
